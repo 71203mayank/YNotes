@@ -1,0 +1,71 @@
+.MainEditor{
+    width:calc(45vw - 30px);
+}
+.EditorContainer{
+    display:block;
+}
+.quillEditor{
+    height:80vh;
+}
+
+.NoteTitleContainer{
+    display:flex;
+    height:30px;
+    justify-content:space-between;
+}
+.NoteTitle{
+    height:25px;
+    width:300px;
+    border: 1px solid #ccc;
+}
+.EditorBtns{
+    width:200px;
+    display: flex;
+}
+.editorBtns{
+    border:1px solid #1CAC78;
+    height:30px;
+    width:80px;
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: white;
+}
+.SaveNotes{
+    border-radius: 5px 0 0 5px;
+    color: #1CAC78;
+}
+.SaveNotes:hover{
+    box-shadow: inset 80px 0 0 0 #1CAC78;
+    color:white;
+    border-right:white 1px solid;
+    cursor: pointer;
+    scale:1.1;
+}
+.UploadNotes{
+    border-radius: 0 5px 5px 0;
+    background-color: #1CAC78;
+    color: white;
+}
+ .UploadNotes:hover{
+    box-shadow: inset 80px 0 0 0 white;
+    color: #1CAC78 ;
+    cursor: pointer;
+    scale:1.1;
+}
+.UploadNotes:disabled, .UploadNotes[disabled]{
+    color:#1CAC78;
+    cursor:no-drop;
+    background-color: white;
+    scale: none;
+}
+.CancelNotes{
+    margin-left:10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    height:30px;
+    width:30px;
+}
+.cancleBtn{
+    height: 100%;
+    width:100%;
+}

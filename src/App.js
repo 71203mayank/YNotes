@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import MainEditor from './Components/Editors/MainEditor/MainEditor';
+import NoteList from './Components/Editors/NoteList/NoteList';
+import ShowNote from './Components/Editors/NoteList/ShowNote';
+import UpdateNote from './Components/Editors/NoteList/UpdateNote';
+import Youframe from './Components/Youframe/Youframe';
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <div className='leftPage'>
+        <Youframe /> 
+      </div>
+
+      <div className='rightPage'>
+      <Routes>
+        <Route path='/' element={<NoteList/>}/>
+        <Route path='/editor' element={<MainEditor/>}/>
+        <Route path = 'show-note/:id' element={<ShowNote/>}/>
+        <Route path='update-note/:id' element={<UpdateNote/>}/>
+      </Routes>
+      </div>
+      </BrowserRouter>
+
     </div>
   );
 }

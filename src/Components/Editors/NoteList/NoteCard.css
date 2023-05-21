@@ -1,0 +1,26 @@
+.NoteBox{
+    height:35px;
+    width:40vw;
+    margin-block: 20px;
+    border: 1.5px solid #ccc;
+    padding-block: 10px;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 10px #6d6b6b; */
+}
+.NoteBox:hover{
+    scale:1.01;
+}
+
+/* .date{
+    padding:5px 0 0 20px;
+    text-decoration: none;
+    color:#1CAC78;
+} */
+.titleClick{
+    color:#474747;
+    font-size: 24px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}

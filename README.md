@@ -23,4 +23,9 @@ It is YouTube embedded note-taking application which allows users avoid unwanted
     5. You also have options to delete and update your notes.
 
 
-    
+
+  <img width="839" alt="ynotes1" src="https://github.com/71203mayank/YNotes/assets/122230731/60612fbf-4f9c-4338-b1f2-de334e205afe">
+  <img width="960" alt="ynotes2" src="https://github.com/71203mayank/YNotes/assets/122230731/9183e855-2868-4359-810a-584d3e62d84c">
+<img width="960" alt="ynotes5" src="https://github.com/71203mayank/YNotes/assets/122230731/36adf770-5107-4000-b53d-130533980849">
+<img width="960" alt="ynotes4" src="https://github.com/71203mayank/YNotes/assets/122230731/6d900cb6-df41-4f08-877c-6eb4c6fba699">
+<img width="960" alt="ynotes3" src="https://github.com/71203mayank/YNotes/assets/122230731/d1ad5c6c-425d-4c70-b28f-d217c19bfdf1">
